@@ -16,7 +16,7 @@ if fl is not None:
     filename = fl.name
     st.write(filename)
 else:
-    os.chdir(r"C:\Users\saran\OneDrive\Desktop\python 3\STREAMLIT")
+    # os.chdir(r"C:\Users\saran\OneDrive\Desktop\python 3\STREAMLIT")
     df = pd.read_csv("Superstore.csv",encoding = "ISO-8859-1")
     
 # ✅ Check required columns
